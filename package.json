@@ -1,0 +1,26 @@
+{
+  "name": "speeasyy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "apollo-server": "^3.3.0",
+    "bcryptjs": "^2.4.3",
+    "firebase-admin": "^11.0.0",
+    "graphql": "^15.5.3",
+    "graphql-subscriptions": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.6",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.16",
+    "subscriptions-transport-ws": "^0.11.0"
+  }
+}
